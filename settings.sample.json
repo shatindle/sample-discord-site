@@ -1,0 +1,19 @@
+{
+    "secureCookie": true,
+    "secret": "SOME_LONG_SECRET_STRING",
+    "port": 5000,
+    "discord": {
+        "token": "YOUR DISCORD BOT TOKEN",
+        "guild": "GUILD ID YOU WANT TO GET ROLES FROM",
+        "client_id": "DISCORD_API_CLIENT_ID",
+        "client_secret": "DISCORD API CLIENT SECRET",
+        "redirect_uri": "http://localhost:80/discordlogin",
+        "login_uri": "https://discord.com/api/oauth2/authorize?client_id=DISCORD_API_CLIENT_ID&redirect_uri=http%3A%2F%2Flocalhost%3A80%2Fdiscordlogin&response_type=code&scope=identify"
+    },
+    "roles": {
+        "mod": [
+            "Moderator",
+            "Administrator"
+        ]
+    }
+}
